@@ -1,0 +1,5 @@
+UART kullanım
+-> Baud rate otomatik ayarlıyor. bunun için serial'dan:
+    1. "AT" gönder.
+    2. OK mesajı geldi mi? gelmediyse terkar "AT" gönder.
+    3. OK mesajından sonra "AT-IPR" gönder. bu komut baudrate'i hostunkiyle eşitle demek
